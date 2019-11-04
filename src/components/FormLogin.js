@@ -11,7 +11,7 @@ export default props => (
         <View style={{flex: 2}}>
             <TextInput style={{fontSize: 20, height: 45}} placeholder='E-mail' />
             <TextInput style={{fontSize: 20, height: 45}} placeholder='Senha' />
-            <TouchableHighlight onPress={()=> Actions.formCadastr() }>
+            <TouchableHighlight onPress={()=> Actions.formCadastro() }>
             <Text style={{fontSize: 20}}>Ainda não tem cadastro? Cadastre-se</Text>
             </TouchableHighlight>
         </View>
