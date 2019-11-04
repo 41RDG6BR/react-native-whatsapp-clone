@@ -1,11 +1,6 @@
-import React, { Component } from 'react';
-import FormLogin from './components/FormLogin'
-import FormCadastro from './components/FormCadastro'
+import React from 'react';
+import Routes from './Routes';
 
-export default class HelloWorldApp extends Component {
-  render() {
-    return (
-    <FormCadastro />
-    );
-  }
-}
+export default props => (
+    <Routes />
+);
